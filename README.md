@@ -19,4 +19,4 @@ Not production ready.
 ## Recommended IDE setup
 
 - Your favorite code editor
-- [https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer](rust-analyzer)
+- [rust-analyzer]([rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer))
