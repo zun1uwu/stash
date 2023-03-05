@@ -4,19 +4,15 @@ Not production ready.
 
 ## Building
 
-### yarn
 - Clone the repository
-- Run `yarn` and `yarn tauri dev`
+- For yarn, run `yarn` and `yarn tauri dev`
+- For npm, run `npm install` and `npm run tauri dev`
 
-### npm
-- Clone the repository
-- Run `npm install` and `npm run tauri dev`
-
-## Notes for contributors
+### Notes for contributors
 
 - Make sure you submit code according to the [rusty style guidelines](https://doc.rust-lang.org/1.0.0/style/README.html).
 
-## Recommended IDE setup
+### Recommended IDE setup
 
 - Your favorite code editor
 - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
