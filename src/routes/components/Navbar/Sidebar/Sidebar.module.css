@@ -1,0 +1,87 @@
+.sidebar {
+  height: 100vh;
+  width: fit-content;
+}
+
+.sidebar_top {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  background-color: #1a1a1a;
+  box-shadow: 0px 4px 15px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* Sidebar Top */
+.sidebar h1 {
+  font-family: "Mars", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.top_hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 14px;
+  gap: 14px;
+  background: #6a2aff;
+}
+
+.top_hamburger > span {
+  display: block;
+  width: 45px;
+  height: 6px;
+  background: #d9d9d9;
+  border-radius: 0px 6px;
+}
+
+/* Sidebar Elements */
+.sidebar_elements {
+  background-color: #0d0d0d;
+  height: calc(100vh - 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar_elements ul {
+  list-style: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+}
+
+/* Sidebar Bottom */
+.sidebar_bottom {
+  background-color: #1a1a1a;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.settings {
+  background: url(./assets/settings.svg) no-repeat center;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.changelog {
+  background: url(./assets/newspaper.svg) no-repeat center;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+}

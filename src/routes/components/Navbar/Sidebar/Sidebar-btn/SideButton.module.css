@@ -1,0 +1,31 @@
+.buttonAnchor {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttonAnchor div {
+  color: #fff;
+  cursor: pointer;
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper img {
+  width: 30px;
+  height: 30px;
+}
+
+.active div {
+  background-color: #6a2aff;
+  border-radius: 8px;
+  padding: 7px;
+}

@@ -1,11 +1,12 @@
+import Navbar from "./components/Navbar/Navbar";
+
 function newEntry() {
-
-    return <>
-    
-        <h1>new Entry</h1>
-    
+  return (
+    <>
+      <Navbar />
+      <h1>new Entry</h1>
     </>
-
+  );
 }
 
 export default newEntry;

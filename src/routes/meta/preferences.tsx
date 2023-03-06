@@ -1,13 +1,13 @@
-import './style.css'
+import "./style.css";
+import Navbar from "../components/Navbar/Navbar";
 
 function Preferences() {
-
-    return <>
-    
-        <h1 class="title">Preferences</h1>
-    
+  return (
+    <>
+      <Navbar />
+      <h1 class="title">Preferences</h1>
     </>
-
+  );
 }
 
 export default Preferences;

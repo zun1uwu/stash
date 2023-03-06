@@ -1,0 +1,55 @@
+.topbar {
+  height: 70px;
+  width: 100%;
+  background-color: #0d0d0d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 35px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  font-family: "Neue Machina", sans-serif;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #6a2aff;
+  border-radius: 8px 0px 0px 8px;
+  padding: 10px;
+  width: 35vw;
+}
+
+.searchBar button img {
+  display: flex;
+  align-items: center;
+  background-color: #6a2aff;
+  border-radius: 0px 8px 8px 0px;
+  padding: 8px;
+}
+
+.interactionBtn {
+  display: flex;
+  flex-direction: row;
+}
+
+.minimize,
+.close,
+.searchBar button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: rgb(196, 22, 22);
+  transition: ease-in-out 0.2s;
+}
+
+.minimize:hover {
+  background-color: #1a1a1a;
+  transition: ease-in-out 0.2s;
+}
