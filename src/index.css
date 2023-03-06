@@ -7,9 +7,23 @@
   user-select: none;
   background-color: #040404;
   color: white;
-  font-family: sans-serif;
+  font-family: "Neue Machina", sans-serif;
 }
 
 :focus {
   outline: none;
+}
+
+@font-face {
+  font-family: Neue Machina;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/NeueMachina-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: Mars;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Mars.otf") format("otf");
 }

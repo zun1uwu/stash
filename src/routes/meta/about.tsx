@@ -1,13 +1,13 @@
-import './style.css'
+import "./style.css";
+import Navbar from "../components/Navbar/Navbar";
 
 function About() {
-
-    return <>
-    
-        <h1 class="title">About</h1>
-    
+  return (
+    <>
+      <Navbar />
+      <h1 class="title">About</h1>
     </>
-
+  );
 }
 
 export default About;

@@ -14,13 +14,15 @@
     "@solidjs/router": "^0.7.0",
     "@tauri-apps/api": "^1.2.0",
     "solid-js": "^1.4.7",
-    "tsparticles": "^2.9.3"
+    "tauri": "^0.14.1",
+    "tsparticles": "^2.9.3",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.2.2",
     "@types/node": "^18.7.10",
     "typescript": "^4.7.4",
-    "vite": "^4.0.0",
+    "vite": "^4.1.4",
     "vite-plugin-solid": "^2.3.0"
   }
 }
