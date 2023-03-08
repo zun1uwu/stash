@@ -8,18 +8,21 @@ import text from "./routes/categories/text";
 import videos from "./routes/categories/videos";
 import preferences from "./routes/meta/preferences";
 import about from "./routes/meta/about";
-import new_entry from "./routes/entry";
+import entries from "./routes/entries";
 
 import "./app.css";
+import Navbar from "./routes/components/Navbar/Navbar";
 
 function App() {
   return (
     <>
+    <div class="page">
+    <Navbar/>
       <Routes>
         <Route path="/" component={home} />
         <Route path="/preferences" component={preferences} />
         <Route path="/about" component={about} />
-        <Route path="/new-entry" component={new_entry} />
+        <Route path="/entries" component={entries} />
         <Route path="/passwords" component={passwords} />
         <Route path="/videos" component={videos} />
         <Route path="/images" component={images} />
@@ -27,6 +30,7 @@ function App() {
         <Route path="/files" component={files} />
         <Route path="/text" component={text} />
       </Routes>
+    </div>
     </>
   );
 }

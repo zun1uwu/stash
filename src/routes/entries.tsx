@@ -1,12 +1,12 @@
 import Navbar from "./components/Navbar/Navbar";
+import style from "./entries.module.css";
 
-function newEntry() {
+function entries() {
   return (
     <>
-      <Navbar />
       <h1>new Entry</h1>
     </>
   );
 }
 
-export default newEntry;
+export default entries;

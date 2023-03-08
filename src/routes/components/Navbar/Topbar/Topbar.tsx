@@ -11,18 +11,6 @@ function Topbar() {
   return (
     <>
       <div data-tauri-drag-region class={style.topbar}>
-        <div class={style.searchBar}>
-          <input
-            type="text"
-            placeholder="Search entire database"
-            onInput={(e) => {
-              setSearchQuery(e.currentTarget.value);
-            }}
-          />
-          <button>
-            <img src={search} alt="Search Bar Icon" />
-          </button>
-        </div>
         <div class={style.interactionBtn}>
           <button onClick={() => appWindow.minimize()} class={style.minimize}>
             <img src={minimize} alt="Minimize Window Icon" />

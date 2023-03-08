@@ -6,11 +6,6 @@ function Sidebar() {
     <>
       <div class={style.sidebar}>
         <div data-tauri-drag-region class={style.sidebar_top}>
-          <div data-tauri-drag-region class={style.top_hamburger}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
           <h1 data-tauri-drag-region>Stash</h1>
         </div>
         <div class={style.sidebar_elements}>
@@ -20,18 +15,10 @@ function Sidebar() {
             </li>
             <li>
               <SideButton
-                href="/new-entry"
-                title="New Entry"
+                href="/entries"
+                title="Entries"
                 active={false}
                 logoType="add"
-              />
-            </li>
-            <li>
-              <SideButton
-                href="#"
-                title="Socials"
-                active={false}
-                logoType="socials"
               />
             </li>
             <li>
