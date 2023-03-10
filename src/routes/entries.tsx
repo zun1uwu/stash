@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar/Navbar";
 import style from "./entries.module.css";
 
 function entries() {
